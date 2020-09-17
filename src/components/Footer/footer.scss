@@ -1,0 +1,72 @@
+@import '../../assets/style/variable.scss';
+.footer{
+	background-color: $bg-dark-color;
+	.footer-container{
+		padding: 30px 0;
+		.menu{
+			display: flex;
+			padding: 10px 0;
+			flex-wrap: wrap;
+			a{
+				color: $white-gray;
+				padding-right: 15px;
+				margin-top: 15px;
+				cursor: pointer;
+				&:not(:last-child){
+					border-right: 2px solid $white-gray;
+				}
+				&:not(:first-child){
+					padding-left: 15px;
+				}
+
+				&:hover{
+					color: $white-gray-hover;
+				}
+			}
+		}
+		.copyright{
+			padding: 10px 0;
+			font-size: 12px;
+			color: $white-gray-darken-1;
+		}
+
+		.icon-menu{
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			padding: 15px 0;
+			flex-wrap: wrap;
+			a{
+				cursor: pointer;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				margin-right: 20px;
+			}
+
+			.social-medias{
+				display: flex;
+				flex-wrap: wrap;
+				margin: 20px 0;
+				a{
+					img{
+						width: 24px;
+						height: 24px;
+					}
+				}
+			}
+
+			.mobile-stores{
+				display: flex;
+				flex-wrap: wrap;
+				a{
+					margin-bottom: 15px;
+					img{
+						height: 40px;
+					}
+				}
+			}
+
+		}
+	}
+}

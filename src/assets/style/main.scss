@@ -1,0 +1,24 @@
+@import './normalize.scss';
+@import './variable.scss';
+
+body,
+html {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	height: 100%;
+}
+
+.app{
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+.container {
+	height: 100%;
+	max-width: 1140px;
+	position: relative;
+	margin: auto;
+	padding: 0 24px;
+	will-change: transform;
+}

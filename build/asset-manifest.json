@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.aae0a242.chunk.css",
+    "main.js": "/static/js/main.83e830d2.chunk.js",
+    "main.js.map": "/static/js/main.83e830d2.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.92ee656d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.92ee656d.js.map",
+    "static/js/2.7bb99912.chunk.js": "/static/js/2.7bb99912.chunk.js",
+    "static/js/2.7bb99912.chunk.js.map": "/static/js/2.7bb99912.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.b646e8c807ae964e1da9f53e4260f681.js": "/precache-manifest.b646e8c807ae964e1da9f53e4260f681.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.aae0a242.chunk.css.map": "/static/css/main.aae0a242.chunk.css.map",
+    "static/js/2.7bb99912.chunk.js.LICENSE.txt": "/static/js/2.7bb99912.chunk.js.LICENSE.txt",
+    "static/media/app-store.svg": "/static/media/app-store.0e8d88c0.svg",
+    "static/media/facebook-white.svg": "/static/media/facebook-white.80cf88b9.svg",
+    "static/media/instagram-white.svg": "/static/media/instagram-white.efd131f6.svg",
+    "static/media/play-store.svg": "/static/media/play-store.e017762f.svg",
+    "static/media/twitter-white.svg": "/static/media/twitter-white.2dd9b938.svg",
+    "static/media/windows-store.svg": "/static/media/windows-store.f0450282.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.92ee656d.js",
+    "static/js/2.7bb99912.chunk.js",
+    "static/css/main.aae0a242.chunk.css",
+    "static/js/main.83e830d2.chunk.js"
+  ]
+}

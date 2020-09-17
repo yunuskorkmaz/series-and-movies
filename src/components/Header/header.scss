@@ -1,0 +1,30 @@
+header{
+	height: 54px;
+	background: rgb(115,153,255);
+	background: linear-gradient(180deg, rgba(115,153,255,1) 0%, rgba(81,81,247,1) 100%);
+	.header{
+		height: 100%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.logo-container{
+		font-size: 24px;
+		font-weight: bold;
+		color:#fff;
+		cursor: pointer;
+	}
+
+	.menu-container{
+		display: flex;
+		justify-content: flex-end;
+		flex-wrap: wrap;
+		position: relative;
+		
+		button:first-child{
+			margin-right: 10px;
+		}
+	}
+}
